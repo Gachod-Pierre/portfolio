@@ -29,6 +29,15 @@ coverage
 
 *.tsbuildinfo
 
-/pocketbase/*
-!/pocketbase/pb_migrations
+# généré par "unplugin-vue-router"
 typed-router.d.ts
+
+# PocketBase
+# /pocketbase/*
+# !/pocketbase/pb_migrations
+# !/pocketbase/.gitkeep
+
+/pocketbase/pb_data/data.db-shm
+/pocketbase/pb_data/data.db-wal
+/pocketbase/pb_data/logs.db-shm
+/pocketbase/pb_data/logs.db-wal
