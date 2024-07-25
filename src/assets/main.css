@@ -84,6 +84,13 @@
     @apply text-white text-4xl leading-tight lg:text-9xl;
   }
 
+  .h1bis {
+    font-family: 'CocoSharp', sans-serif;
+    font-weight: 200; /* Heavy / Extrabold */
+    letter-spacing: 0.01em; /* Ajustement du letter-spacing */
+    @apply text-white text-4xl leading-tight lg:text-9xl;
+  }
+
   h2 {
     font-family: 'CocoSharp', sans-serif;
     font-weight: 700;
