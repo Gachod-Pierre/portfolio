@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Regular.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Bold.ttf')
+    format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Extrabold.ttf')
+    format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Heavy.ttf')
+    format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Light.ttf')
+    format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Extralight.ttf')
+    format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Italic.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Heavy.ttf')
+    format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    font-family: 'CocoSharp', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    @apply text-base leading-relaxed lg:leading-relaxed lg:text-lg;
+  }
+  h1 {
+    font-family: 'CocoSharp', sans-serif;
+    font-weight: 800; /* Heavy / Extrabold */
+    letter-spacing: 0.05em; /* Ajustement du letter-spacing */
+    @apply text-white text-4xl leading-tight lg:text-9xl;
+  }
+
+  h2 {
+    font-family: 'CocoSharp', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    @apply text-2xl leading-tight lg:text-5xl;
+  }
+  h3 {
+    font-family: 'CocoSharp', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    @apply text-base leading-tight lg:text-xl;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-full mx-auto lg:px-24 px-6;
+  }
+}

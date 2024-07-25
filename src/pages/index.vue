@@ -1,16 +1,11 @@
 <script setup lang="ts">
 import { pb } from '@/backend'
 
-const testData = await pb.collection('test').getFullList()
+
 </script>
 
 <template>
-  <main>
-    bonjour de home
-    <ul>
-      <li v-for="item in testData" :key="item.id">
-        {{ item.text }}
-      </li>
-    </ul>
+  <main class="bg-black w-screen h-screen">
+    <h1 class="flex gap-4">Rien à voir<h1 class="h1bis">ici</h1></h1>
   </main>
 </template>

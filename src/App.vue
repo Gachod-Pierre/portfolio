@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import Auth from './components/Auth.vue'
 
 import { onErrorCaptured, ref } from 'vue'
 
@@ -14,19 +13,6 @@ onErrorCaptured((err, component, info) => {
 </script>
 
 <template>
-  <header>
-    <h1>Test</h1>
-
-    <p v-if="error">Erreur : {{ error.message }}</p>
-
-    <Auth />
-
-    <nav class="*:text-red-500 flex flex-col">
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
-  </header>
-
   <Suspense>
     <template #default>
       <RouterView />
