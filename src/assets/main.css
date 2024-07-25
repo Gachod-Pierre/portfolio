@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Regular.ttf')
+  src: url('/Fonts/Coco-Sharp-Regular.ttf')
     format('truetype');
   font-weight: 400;
   font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Bold.ttf')
+  src: url('/Fonts/Coco-Sharp-Bold.ttf')
     format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Extrabold.ttf')
+  src: url('/Fonts/Coco-Sharp-Extrabold.ttf')
     format('truetype');
   font-weight: 800;
   font-style: normal;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Heavy.ttf')
+  src: url('/Fonts/Coco-Sharp-Heavy.ttf')
     format('truetype');
   font-weight: 900;
   font-style: normal;
@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Light.ttf')
+  src: url('/Fonts/Coco-Sharp-Light.ttf')
     format('truetype');
   font-weight: 300;
   font-style: normal;
@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Extralight.ttf')
+  src: url('/Fonts/Coco-Sharp-Extralight.ttf')
     format('truetype');
   font-weight: 200;
   font-style: normal;
@@ -56,7 +56,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Italic.ttf')
+  src: url('/Fonts/Coco-Sharp-Italic.ttf')
     format('truetype');
   font-weight: 400;
   font-style: Italic;
@@ -64,7 +64,7 @@
 
 @font-face {
   font-family: 'CocoSharp';
-  src: url('/var/www/portfolio/pb_public/Fonts/Coco-Sharp-Heavy.ttf')
+  src: url('/Fonts/Coco-Sharp-Heavy.ttf')
     format('truetype');
   font-weight: 900;
   font-style: normal;
