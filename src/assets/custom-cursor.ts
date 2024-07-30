@@ -6,18 +6,16 @@ export function initCustomCursor() {
   document.body.appendChild(cursor)
 
   document.addEventListener('mousemove', (e) => {
-    cursor.setAttribute('style', `top: ${e.pageY - 10}px; left: ${e.pageX - 10}px;`)
+    cursor.style.top = `${e.pageY - 10}px`
+    cursor.style.left = `${e.pageX - 10}px`
   })
 
   document.addEventListener('click', () => {
-    if (!cursor.classList.contains('expand')) {
-      cursor.classList.add('expand')
-
-      // Force reflow to restart the animation
-      cursor.offsetWidth // Reading this property causes reflow
+    if (!cursor.classList.contains('click-effect')) {
+      cursor.classList.add('click-effect')
 
       setTimeout(() => {
-        cursor.classList.remove('expand')
+        cursor.classList.remove('click-effect')
       }, 500)
     }
   })
