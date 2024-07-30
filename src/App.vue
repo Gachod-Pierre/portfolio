@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 
-import { onErrorCaptured, ref } from 'vue'
+import { onErrorCaptured, ref, onMounted } from 'vue'
+
+import { initCustomCursor } from './assets/custom-cursor'
 
 const error = ref<Error | null>(null)
 
@@ -10,16 +12,15 @@ onErrorCaptured((err, component, info) => {
   error.value = err
   return true
 })
+
+onMounted(() => {
+  console.log('Vue app mounted')
+  initCustomCursor()
+})
 </script>
 
 <template>
-  <Suspense>
-    <template #default>
-      <RouterView />
-    </template>
-
-    <template #fallback>
-      <div>Loading...</div>
-    </template>
-  </Suspense>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
